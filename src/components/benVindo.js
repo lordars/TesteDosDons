@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import {  Button } from "@mui/material"
-
+import { width } from '@mui/system';
+import "./styless.css"
+import logoPib from "../img/pibcacapava.jpeg"
 
 export class BenVindo extends Component {
 
@@ -20,7 +22,8 @@ export class BenVindo extends Component {
       
         return (
 
-            <div>
+            <div className="inicio">
+                <img src={logoPib}/>
                 <h1>TESTE DOS DONS</h1>
 
                 <h2>Este teste possui 35 sentenças que ajudarão ao (à) irmão(ã) a enxergar com mais clareza

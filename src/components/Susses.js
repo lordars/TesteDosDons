@@ -35,6 +35,7 @@ export class Susses extends Component {
                     <h1>Resultado:</h1>
                     <p>
                         O número mais alto (o max posivel 15) representa seu dom principal, o segundo mais alto o dom secundario, se tiver empate você tem Dois dons principais
+                        Advertencia: Si por acaso existir campos incompletos aparece a sigla "NaN" significa que você não prenchou tudo!!!
                     </p>
                     <Card
                     sx={{ maxWidth: 345 
